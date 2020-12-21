@@ -1,0 +1,42 @@
+body {
+    padding: 50px;
+}
+
+.card {
+    border: 1px solid #bfbfbf;
+    width: 285px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.card-text {
+    padding: 20px;
+}
+
+.card-title {
+    margin-bottom: 20px;
+}
+
+.card-description {
+    margin-bottom: 30px;
+}
+
+.card-btn {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+}
